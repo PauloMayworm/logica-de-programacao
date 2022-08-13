@@ -15,17 +15,17 @@ programa
 		  	se(i==0){
 		  		maiorIdade= idade[i]
 		  		menorIdade= idade[i]
-		  	}
-		  	senao
-		  		se(idade[i]> maiorIdade){
+		  	}senao{
+		  		 se(idade[i]> maiorIdade){
 		  			maiorIdade = idade[i]
 		  		}
 		  	     se(idade[i]< menorIdade){
 		  	     	menorIdade = idade[i]
 		  	   }
 		  	}
-		     escreva("Idade maior",maiorIdade)
-		  	escreva("\nIdade menor",menorIdade)
+		  }
+		     escreva("Idade maior:",maiorIdade)
+		  	escreva("\nIdade menor:",menorIdade)
 		}
 }
 
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 485; 
+ * @POSICAO-CURSOR = 538; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
